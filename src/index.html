@@ -6,23 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
 
-    <div class="header bg-red-500">
-        <div class="container flex mx-auto justify-between">
-            <div class="logo w-2/3 flex items-center">
-                <span class="">Example</span>
-            </div>
-            <div class="flex flex-1 justify-between">
-                <a class="hover:bg-black p-4 text-lime-50" href="/">Home</a>
-                <a class="hover:bg-black p-4 text-lime-50" href="/">Home</a>
-                <a class="hover:bg-black p-4 text-lime-50" href="/">Home</a>
-                <a class="hover:bg-black p-4 text-lime-50" href="/">Home</a>
-                <a class="hover:bg-black p-4 text-lime-50" href="/">Home</a>
+    <section>
+        <nav class="bg-white shadow-lg">
+           <div class="container flex justify-between mx-auto">
+                <div class="flex items-center">
+                    <a class="flex px-4 py-5  items-center" href="/">
+                        <i class="fa-solid text-gray-600 text-3xl fa-house-user"></i>
+                        <span class="font-semibold ml-2 text-lg text-gray-500">Home Properties</span>
+                    </a>
+                </div>
+                <div class="md:flex hidden items-center">
+                    <a class="text-green-500 font-semibold px-4 py-5  border-b-4 border-green-500 " href="/">Home</a>
+                    <a class="text-gray-500 font-semibold px-4 py-5 hover:text-green-500 transition duration-300" href="/">Blogs</a>
+                    <a class="text-gray-500 font-semibold px-4 py-5 hover:text-green-500 transition duration-300" href="/">About</a>
+                    <a class="text-gray-500 font-semibold px-4 py-5 hover:text-green-500 transition duration-300" href="/">Contact</a>
+                </div>
+           </div>
+        </nav>
+    </section>    
+    <section>
+        <div class="container my-16 mx-auto">
+            <h1 class="flex flex-col text-center">
+                <span class="text-6xl text-black font-bold">Premium Properties</span>
+                <span class="text-6xl text-green-500 font-bold">Non-premium Prices</span>
+            </h1>
+            <p class="my-6 leading-6 text-lg text-gray-500 font-semibold lg:w-1/2 mx-auto text-center px-4 md:w-4/5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas autem nobis, cumque, omnis facilis suscipit est officia cum, fugiat nemo ducimus! Nulla perferendis molestias reprehenderit sunt nostrum autem reiciendis officia.</p>
+            <div class="md:flex md:justify-center mt-4 md:gap-1">
+                <button class="transition duration-300 w-full my-2 md:w-auto hover:bg-black bg-green-500 text-xl px-6  py-4 font-semibold rounded-md text-white">View Properties</button>
+                <button class="transition duration-300 w-full my-2 md:w-auto hover:bg-gray-500  bg-green-200  text-xl px-6 py-4 font-semibold rounded-md text-green-700 hover:text-gray-50">Explore Locations</button>
             </div>
         </div>
-    </div>
+    </section>
+    <section>
+        <div class="container mx-auto">
+            <h2 class="text-gray-500 mb-10 text-2xl text-center font-semibold">Recent Properties</h2>
+        
+        <div class="flex my-20 flex-wrap">
+            <div class="flex lg:w-1/3 md:w-1/2 w-full">
+                <div class="flex flex-col m-2 w-full">  
+                    <img class="rounded-t-lg object-cover md:h-48 max-h-48  lg:h-52 w-full" src="https://tinypng.com/images/social/website.jpg" alt="nai">
+                    <p class="text-gray-500 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta labore aliquid et! Dicta maiores id et, quis maxime voluptate.</p>
+                </div>    
+            </div>
+            <div class="flex lg:w-1/3 md:w-1/2 w-full">
+                <div class="flex flex-col m-2 w-full">  
+                    <img class="rounded-t-lg object-cover md:h-48 max-h-48  lg:h-52 w-full" src="https://wallup.net/wp-content/uploads/2014/10/nature/Beautiful_Landscape_Beach-748x468.jpg" alt="nai">
+                <p class="text-gray-500 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta labore aliquid et! Dicta maiores id et, quis maxime voluptate.</p>
+                </div>    
+            </div>
+            <div class="flex lg:w-1/3 md:w-1/2 w-full">
+                <div class="flex flex-col m-2 w-full">  
+                    <img class="rounded-t-lg object-cover md:h-48 max-h-48 lg:h-52 w-full" src="https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480" alt="nai">
+                <p class="text-gray-500 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta labore aliquid et! Dicta maiores id et, quis maxime voluptate.</p>
+                </div>    
+            </div>
+        </div>
+        
+        </div>
+    </section>
     
 </body>
 </html>
